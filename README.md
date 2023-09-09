@@ -16,4 +16,18 @@ Stable Lens is an image captioning model that leverages the power of CLIP and St
 
 ## Usage
 
-To get started with Stable-Lens and reproduce the results, you can run the jupyter notebook. The pickle files which contain CLIP embeddings alongside captions were generated using the script found [here](https://github.com/rmokady/CLIP_prefix_caption/blob/main/parse_coco.py).
+To get started with Stable-Lens and reproduce the results, open the included Jupyter notebook (`Stable-Lens-Image-Captioning.ipynb`). 
+
+### Notebook Contents
+
+Inside the notebook, you will find:
+
+- **Model Definition**: The notebook contains the model architecture definition, including the CLIP encoder, mapping network (MLP), and Stablelm configuration.
+
+- **Model Training**: Scripts and code for training the Stable Lens model using your own dataset or pre-existing data.
+
+- **Model Inference**: Code for generating image captions using the trained model. You can provide your own images for caption generation.
+
+- **Model Evaluation**: Techniques for evaluating the model's performance, including the calculation of BLEU scores to measure the quality of generated captions.
+
+The pickle files included in this repository contain CLIP embeddings alongside captions and were generated using the script found [here](https://github.com/rmokady/CLIP_prefix_caption/blob/main/parse_coco.py).
