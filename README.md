@@ -11,7 +11,7 @@ Stable Lens is an image captioning model that leverages the power of CLIP and St
 3. **Stablelm for Captioning**: The output from the mapping network becomes a prefix, which is then fed into Stablelm. Stablelm, a powerful language model, takes this prefix and generates a coherent and contextually relevant caption for the given image.
 
 ### Sample Generated Captions from COCO Images
-<img width="475" alt="image" src="https://github.com/RyanSh3n/Stable-Lens/assets/45503218/e0b3edc1-1a97-46d1-9ebf-c9e7830dad23">
+<img width="500" alt="image" src="https://github.com/RyanSh3n/Stable-Lens/assets/45503218/e0b3edc1-1a97-46d1-9ebf-c9e7830dad23">
 
 ## References
 
